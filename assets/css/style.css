@@ -8,7 +8,7 @@
 body {
     background-color: #d9dcd6;
 }
-/* The property below puts the website header in a blue box with white font writin. The font styles listed are seen on the webpage */
+/* The property below puts the website header in a blue box with white font. The font styles listed are seen on the webpage */
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -42,7 +42,7 @@ and displays the correct font styles and size */
     display: inline-block;
     margin-left: 25px;
 }
-/* This shows that each linked section titles in the header displays as white */
+/* This shows that each link in the header displays as white */
 a {
     color: #ffffff;
     text-decoration: none;
@@ -80,27 +80,20 @@ padding of 50px, and a heigh of 300px. The same font family is found in all thre
     background-color: #0072bb;
     color: #ffffff;
 }
-.search-engine-optimization img {
-    max-height: 200px;
-}
-.search-engine-optimization h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-.online-reputation-management img {
-    max-height: 200px;
-}
-.online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
+/* The three images associated with the below sections are all attributed a max height of 200px */
+.search-engine-optimization img,
+.online-reputation-management img, 
 .social-media-marketing img {
     max-height: 200px;
 }
+/* The three headers associated with the below sections are all attributed with a bottom margin of 20px and a font size of 36px */
+.search-engine-optimization h2, 
+.online-reputation-management h2,
 .social-media-marketing h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
+
 
 /* Wherever float left is present in the HTML file, the elements with this attribute will be shifted to the left with a 25px margin on the right. */
 .float-left {
@@ -127,45 +120,20 @@ with the listed font type and a background color of blue. The lead, brand, and c
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
 }
- /* The lead section has a margin on the bottom of 32px, and a text color of white. */
+ /* The three sections listed below all have a bottom margin of 32px and a font color of white */
 .benefit-lead,
 .benefit-brand,
 .benefit-cost {
     margin-bottom: 32px;
     color: #ffffff;
 }
-/* The lead section heading has a margin bottom of 10px and the text is aligned in the center. */
-.benefit-lead h3 {
+/* The three sections listed below all have headers with a bottom margin of 10px and are aligned centrally. */
+.benefit-lead h3, .benefit-brand h3, .benefit-cost h3 {
     margin-bottom: 10px;
     text-align: center;
 }
-/* The lead section has a block image that has margins of 10px and a width of 150px. */
-.benefit-lead img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-/* The brand section heading has a margin bottom of 10px and is aligned in the center. */
-.benefit-brand h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-/* The brand section has aa block image with margins of 10px and a width of 150px. */
-.benefit-brand img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-/* The cost section has a bottom margin of 32px and a text color of white. */
-
-/* The cost section heading has a bottom margin of 10px and it is aligned in the center. */
-.benefit-cost h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-/* The cost section has a block image with margins of 10px and a width of 150px. */
-.benefit-cost img {
+/* The three sections listed below all have images that are blocked with 10px margins and a max width of 150px */
+.benefit-lead img, .benefit-brand img, .benefit-cost img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
