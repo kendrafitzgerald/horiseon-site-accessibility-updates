@@ -6,7 +6,9 @@ My motivation behind this project was to update the Horiseon site to meet access
 
 ## Usage
 To use this website, click on one of the links in the navigation bar. These links are Search Engine Optimization, Online Reputation Management, and Social Media Marketing. Upon clicking on one of these links, you will be taken to the location on the webpage associated with that link. You can also simply scroll down the page to see the various sections and their content.
+[Here is a link to the Horiseon website](https://kendrafitzgerald.github.io/horiseon-site-accessibility-updates/)
 ![Screenshot of the Horiseon webpage](./assets/images/horiseon-site.png)
+
 
 ## How To Contribute
 If you would like to contribute to this website, please email me at kendrajfitzgerald@gmail.com. I would love to connect!
