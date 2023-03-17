@@ -2,66 +2,11 @@
 
 ## Description
 
-Provide a short description explaining the what, why, and how of your project. Use the following questions as a guide:
-
-- What was your motivation?
-- Why did you build this project? (Note: the answer is not "Because it was a homework assignment.")
-- What problem does it solve?
-- What did you learn?
-
-## Table of Contents (Optional)
-
-If your README is long, add a table of contents to make it easy for users to find what they need.
-
-- [Installation](#installation)
-- [Usage](#usage)
-- [Credits](#credits)
-- [License](#license)
-
-## Installation
-
-What are the steps required to install your project? Provide a step-by-step description of how to get the development environment running.
+My motivation behind this project was to update the Horiseon site to meet accessibility standards and to clean up the code present. Moreover, I was motivated to create greater functionality in the code so the website could run more smoothly. While I did not build the original project, I built upon the existing code and worked to make the website better in terms of both functionality and accessibility. Additionally, I built upon this website in order to meet best practices of web design for the page. This project solves issues that were present in the Horiseon site prior to the work I did on the page. Previously, the Horiseon site did not have image descriptions that upheld accessibility standards. Furthermore, the html file had minimal semantic elements and was full of divs. The html file also included links that were broken, and both the html and CSS files lacked logical flow and consolidation. I updated the site to meet accessiblity standards by adding image descriptions in html, changed the divs to semantic elements in html to make it easier to read, created functionality to the links in the navigation element of the webpage, and updated both the html and CSS files to be consolidated and have a logical flow. When looking at the updated site, it is evident that there are descriptions attatched to the images and the links are functioning correctly. Moreover, upon looking at the html and CSS files it is clear that semantic elements are in place rather than divs, and that the CSS file matches the new semantic html elements and is consolidated to provide clarity as well. Lastly, I provided comments to the CSS file which explain how those classes effect the elements on the webpage. Throughout this project, I learned new semantic elements for html such as the nav element for navigation bars. I also learned how to properly link elements on a webpage, allowing the user to click on an element in the navigation bar and jump to the associated point on the webpage. I also learned how to consolidate CSS classes for elements that are attributed the same styling. 
 
 ## Usage
+To use this website, click on one of the links in the navigation bar. These links are Search Engine Optimization, Online Reputation Management, and Social Media Marketing. Upon clicking on one of these links, you will be taken to the location on the webpage associated with that link. You can also simply scroll down the page to see the various sections and their content.
+![Screenshot of the Horiseon webpage](./assets/images/horiseon-site.png)
 
-Provide instructions and examples for use. Include screenshots as needed.
-
-To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative filepath, add it to your README using the following syntax:
-
-    ```md
-    ![alt text](assets/images/screenshot.png)
-    ```
-
-## Credits
-
-List your collaborators, if any, with links to their GitHub profiles.
-
-If you used any third-party assets that require attribution, list the creators with links to their primary web presence in this section.
-
-If you followed tutorials, include links to those here as well.
-
-## License
-
-The last section of a high-quality README file is the license. This lets other developers know what they can and cannot do with your project. If you need help choosing a license, refer to [https://choosealicense.com/](https://choosealicense.com/).
-
----
-
-🏆 The previous sections are the bare minimum, and your project will ultimately determine the content of this document. You might also want to consider adding the following sections.
-
-## Badges
-
-![badmath](https://img.shields.io/github/languages/top/lernantino/badmath)
-
-Badges aren't necessary, per se, but they demonstrate street cred. Badges let other developers know that you know what you're doing. Check out the badges hosted by [shields.io](https://shields.io/). You may not understand what they all represent now, but you will in time.
-
-## Features
-
-If your project has a lot of features, list them here.
-
-## How to Contribute
-
-If you created an application or package and would like other developers to contribute it, you can include guidelines for how to do so. The [Contributor Covenant](https://www.contributor-covenant.org/) is an industry standard, but you can always write your own if you'd prefer.
-
-## Tests
-
-Go the extra mile and write tests for your application. Then provide examples on how to run them here.
+## How To Contribute
+If you would like to contribute to this website, please email me at kendrajfitzgerald@gmail.com. I would love to connect!

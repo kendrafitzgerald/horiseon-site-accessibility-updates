@@ -4,54 +4,54 @@
     padding: 0;
     margin: 0;
 }
-/* The property below makes the background of the site white */
+/* The claass below makes the background of the site white */
 body {
     background-color: #d9dcd6;
 }
-/* The property below puts the website header in a blue box with white font. The font styles listed are seen on the webpage */
+/* The class below puts the website header in a blue box with white font. The font styles listed are seen on the webpage */
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
 }
-/* This depicts how the website title is displayed in the header and the font size displayed. It allows us to set a width and height to this element */
+/* This class depicts how the website title is displayed in the header and the font size displayed. It allows us to set a width and height to this element */
 .header h1 {
     display: inline-block;
     font-size: 48px;
 }
-/* This depicts that the seo in horiseon is a different color than the other letters in the word */
+/* This class depicts that the seo in horiseon is a different color than the other letters in the word */
 .header h1 .seo {
     color: #d9dcd6;
 }
-/* This creates the padding for the links on top of the site that lead to different areas in site, determines the margins for this area,
+/* This class creates the padding for the links on top of the site in the navigation bar, determines the margins for this area,
 and displays the correct font styles and size */
-.header section {
+.header nav {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
 }
-/* This section makes the section titles in the heading display horizontally next to one another in the list */
-.header section ul {
+/* This class makes the section titles in the navigation bar display horizontally next to one another in the list */
+.header nav ul {
     list-style-type: none;
 }
-/* This section provides the margins for the section titles in the header */
-.header section ul li {
+/* This class provides the margins for the links in the navigation bar */
+.header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
-/* This shows that each link in the header displays as white */
+/* This class makes each link in the header display as white */
 a {
     color: #ffffff;
     text-decoration: none;
 }
-/* This states that in each paragraph, the font size will be 16 */
+/* This class states that in each paragraph, the font size will be 16 */
 p {
     font-size: 16px;
 }
-/* This section makes the image listed below the background, and creates its size, shape, and position on the page*/
+/* This class makes the image listed below the background, and creates its size, shape, and position on the page*/
 .hero {
     height: 800px;
     width: 100%;
@@ -60,7 +60,7 @@ p {
     background-size: cover;
     background-position: center;
 }
-/* This styling wraps the entire 'main' section of the webpage. The search engine optimization, online reputation management,
+/* This class wraps the entire 'main' section of the webpage. The search engine optimization, online reputation management,
  and social media marketing section are in this main section. It makes the contents of this section stretch for 
 the entirety of the webpage adhering to the margins listed below */
 .content {
@@ -68,7 +68,7 @@ the entirety of the webpage adhering to the margins listed below */
     display: inline-block;
     margin-left: 20px;
 }
-/* The three sections on the below topics all are attributed with the same styling. They each are in boxes with margins of 20px,
+/* The three classes below are attributed to the same styling. They put the content in boxes with margins of 20px,
 padding of 50px, and a heigh of 300px. The same font family is found in all three boxes, and the background of the boxes are blue with white font. */
 .search-engine-optimization,
 .online-reputation-management,
@@ -80,13 +80,13 @@ padding of 50px, and a heigh of 300px. The same font family is found in all thre
     background-color: #0072bb;
     color: #ffffff;
 }
-/* The three images associated with the below sections are all attributed a max height of 200px */
+/* The three images associated with the below classes are all attributed a max height of 200px */
 .search-engine-optimization img,
 .online-reputation-management img, 
 .social-media-marketing img {
     max-height: 200px;
 }
-/* The three headers associated with the below sections are all attributed with a bottom margin of 20px and a font size of 36px */
+/* The three headers associated with the below classes are all attributed with a bottom margin of 20px and a font size of 36px */
 .search-engine-optimization h2, 
 .online-reputation-management h2,
 .social-media-marketing h2 {
@@ -95,21 +95,21 @@ padding of 50px, and a heigh of 300px. The same font family is found in all thre
 }
 
 
-/* Wherever float left is present in the HTML file, the elements with this attribute will be shifted to the left with a 25px margin on the right. */
+/* Wherever the class float left is present in the HTML file, the elements with this attribute will be shifted to the left with a 25px margin on the right. */
 .float-left {
     float: left;
     margin-right: 25px;
 }
 
-/* Wherever a float right is present in the HTML, the associated elements are shifted right, with a 25px margin on the left. */
+/* Wherever the class float right is present in the HTML, the associated elements are shifted right, with a 25px margin on the left. */
 
 .float-right {
     float: right;
     margin-left: 25px;
 }
 
-/* All elements in the section with the benefits attributes are consolidated within the box margins given, floating to the right,
-with the listed font type and a background color of blue. The lead, brand, and cost sections abide by these styles.*/
+/* All elements in this class are consolidated within the box margins given, floating to the right,
+with the listed font type and a background color of blue. The lead, brand, and cost sections on the page abide by these styles.*/
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -120,25 +120,25 @@ with the listed font type and a background color of blue. The lead, brand, and c
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
 }
- /* The three sections listed below all have a bottom margin of 32px and a font color of white */
+ /* The three classes listed below all have a bottom margin of 32px and a font color of white */
 .benefit-lead,
 .benefit-brand,
 .benefit-cost {
     margin-bottom: 32px;
     color: #ffffff;
 }
-/* The three sections listed below all have headers with a bottom margin of 10px and are aligned centrally. */
+/* The three classes listed below all have headers with a bottom margin of 10px and are aligned centrally. */
 .benefit-lead h3, .benefit-brand h3, .benefit-cost h3 {
     margin-bottom: 10px;
     text-align: center;
 }
-/* The three sections listed below all have images that are blocked with 10px margins and a max width of 150px */
+/* The three classes listed below all have images that are blocked with 10px margins and a max width of 150px */
 .benefit-lead img, .benefit-brand img, .benefit-cost img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
-/* The sections below refer to the footer section. It puts the footer in a box and lists the font style as well as centrally aligns the footer.
+/* The classes below refer to the footer section. It puts the footer in a box and lists the font style as well as centrally aligns the footer.
 The second footer style changes the font to size 20px. */
 .footer {
     padding: 30px;
